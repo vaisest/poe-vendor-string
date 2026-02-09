@@ -2,7 +2,7 @@ name: Economy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '@daily'
+    - cron: '4 4 * * *'
 
 env:
   LEAGUE: Phrecia 2.0
